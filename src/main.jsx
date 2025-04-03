@@ -12,8 +12,8 @@ createRoot(document.getElementById('root')).render(
       <App />
       </StrictMode>, */}
     <Routes>
-      <Route path="/my-portfolio/" element={<App />} />
-      <Route path="/my-portfolio/about" element={<About />} />
+      <Route path="/" element={<App />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   </HashRouter>
 )

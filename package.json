@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-"homepage": 'https://beruangtidur.github.io/my-portfolio/'
+  "homepage": "https://beruangtidur.github.io/my-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,12 +9,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-"predeploy":  "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router": "^7.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
